@@ -1,0 +1,19 @@
+2018-09-10 00:14:51,857 TestRequest.py[line: 36] INFO: 实际值{'code': 200, 'msg': '成功!', 'data': {'yesterday': {'date': '9日星期日', 'high': '高温 28℃', 'fx': '东北风', 'low': '低温 20℃', 'fl': '<![CDATA[<3级]]>', 'type': '多云'}, 'city': '杭州', 'aqi': '68', 'forecast': [{'date': '10日星期一', 'high': '高温 28℃', 'fengli': '<![CDATA[<3级]]>', 'low': '低温 19℃', 'fengxiang': '东北风', 'type': '多云'}, {'date': '11日星期二', 'high': '高温 27℃', 'fengli': '<![CDATA[3-4级]]>', 'low': '低温 20℃', 'fengxiang': '东北风', 'type': '阴'}, {'date': '12日星期三', 'high': '高温 27℃', 'fengli': '<![CDATA[3-4级]]>', 'low': '低温 22℃', 'fengxiang': '东风', 'type': '阵雨'}, {'date': '13日星期四', 'high': '高温 29℃', 'fengli': '<![CDATA[3-4级]]>', 'low': '低温 24℃', 'fengxiang': '东风', 'type': '阵雨'}, {'date': '14日星期五', 'high': '高温 32℃', 'fengli': '<![CDATA[<3级]]>', 'low': '低温 25℃', 'fengxiang': '东南风', 'type': '阵雨'}], 'ganmao': '各项气象条件适宜，无明显降温过程，发生感冒机率较低。', 'wendu': '23'}}
+2018-09-10 00:14:51,871 TestRequest.py[line: 34] INFO: 登陆成功用例
+2018-09-10 00:14:51,871 TestRequest.py[line: 35] INFO: 通过
+2018-09-10 00:14:51,871 TestRequest.py[line: 36] INFO: 实际值{'code': 200, 'msg': '成功!', 'data': {'key': '00d91e8e0cca2b76f515926a36db68f5', 'phone': '13594347817', 'name': 'peakchao', 'passwd': '123456', 'text': '这是我的签名。', 'img': 'https://res.apiopen.top/2018031820405521.key.png', 'other': '这是我的备注信息1', 'other2': '这是我的备注信息2', 'createTime': '2018-03-18\xa020:40:55'}}
+2018-09-10 00:14:51,913 TestRequest.py[line: 34] INFO: 小说搜索成功接口
+2018-09-10 00:14:51,913 TestRequest.py[line: 35] INFO: 通过
+2018-09-10 00:14:51,913 TestRequest.py[line: 36] INFO: 实际值{'code': 200, 'msg': '成功!', 'data': ['盗墓笔记续9', '盗墓笔记续集', '盗墓笔记之寻龙图', '盗墓笔记12终极解密', '盗墓笔记之迷途', '盗墓笔记续', '盗墓笔记之咒语', '盗墓笔记之寻仙', '盗墓笔记薄', '盗墓笔记青雪版全集']}
+2018-09-10 00:14:52,051 TestRequest.py[line: 34] INFO: 天气失败获取接口
+2018-09-10 00:14:52,051 TestRequest.py[line: 35] INFO: 通过
+2018-09-10 00:14:52,051 TestRequest.py[line: 36] INFO: 实际值{'code': 201, 'msg': '未获取到相关数据!', 'data': None}
+2018-09-10 00:14:52,067 TestRequest.py[line: 34] INFO: 登陆失败用例
+2018-09-10 00:14:52,067 TestRequest.py[line: 35] INFO: 通过
+2018-09-10 00:14:52,067 TestRequest.py[line: 36] INFO: 实际值{'code': 202, 'msg': '用户名或者密码错误！', 'data': None}
+2018-09-10 00:14:52,100 TestRequest.py[line: 34] INFO: 小说搜索失败接口
+2018-09-10 00:14:52,100 TestRequest.py[line: 35] INFO: 通过
+2018-09-10 00:14:52,100 TestRequest.py[line: 36] INFO: 实际值{'code': 201, 'msg': '未获取到相关数据!', 'data': None}
+2018-09-10 00:14:52,266 TestRequest.py[line: 47] ERROR: 错误用例
+2018-09-10 00:14:52,266 TestRequest.py[line: 48] ERROR: 失败
+2018-09-10 00:14:52,266 TestRequest.py[line: 49] ERROR: 实际值{'code': 202, 'msg': '用户名或者密码错误！', 'data': None}

@@ -1,0 +1,5 @@
+Sat,01 Sep 2018 13:29:09 logtest.py[line:10] DEBUG debug
+Sat,01 Sep 2018 13:29:09 logtest.py[line:11] INFO info
+Sat,01 Sep 2018 13:29:09 logtest.py[line:12] WARNING warning
+Sat,01 Sep 2018 13:29:09 logtest.py[line:13] ERROR error
+Sat,01 Sep 2018 13:29:09 logtest.py[line:14] CRITICAL critical
